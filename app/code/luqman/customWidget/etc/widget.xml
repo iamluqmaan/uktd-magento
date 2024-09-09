@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="custom_elfsight_widget" class="luqman\customWidget\Block\Widget\CustomWidget">
+        <label translate="true">Custom Elfsight Widget</label>
+        <description translate="true">Displays the Elfsight widget on product pages</description>
+        <parameters>
+            <parameter name="template" xsi:type="select" required="true" sort_order="10" visible="true">
+                <label translate="true">Template</label>
+                <options>
+                    <option name="default" value="default">
+                        <label translate="true">Default</label>
+                    </option>
+                    <option name="custom" value="custom">
+                        <label translate="true">Custom</label>
+                    </option>
+                </options>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

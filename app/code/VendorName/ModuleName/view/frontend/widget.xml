@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/widget.xsd">
+    <widget id="vendorname_modulename_widget" class="VendorName\ModuleName\Block\Widget\CustomWidget" is_enabled="true">
+        <label>Custom Elfsight Widget</label>
+        <description>Custom Widget using Elfsight script and div.</description>
+        <parameters>
+            <!-- You can add custom widget parameters here if needed -->
+        </parameters>
+    </widget>
+</widgets>

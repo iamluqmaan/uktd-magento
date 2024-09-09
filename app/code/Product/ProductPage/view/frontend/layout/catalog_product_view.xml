@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- Link custom CSS -->
+        <css src="Product_ProductPage::css/styles.css"/>
+        
+        <!-- Link custom JS -->
+        <script src="Product_ProductPage::js/script.js"/>
+    </head>
+
+    <body>
+
+        <!-- Remove existing blocks if needed -->
+        <!-- <referenceBlock name="product.info.details" remove="true"/>
+        <referenceBlock name="product.info.main" remove="true"/>        
+        <referenceBlock name="product.info.media" remove="true"/> -->
+
+
+        <!-- Add your custom template block -->
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="custom.product.block" template="Product_ProductPage::product.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
