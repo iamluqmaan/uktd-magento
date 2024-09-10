@@ -1,0 +1,19 @@
+{
+    "name": "vendor/theme-frontend-productpage",
+    "description": "Custom Product Page Theme for Magento 2 based on Luma",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/theme-frontend-luma": "100.0.*"
+    },
+    "type": "magento2-theme",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

@@ -1,8 +1,5 @@
 <?php
 return [
-    'theme' => [
-        'frontend' => 'Product/ProductPage'
-    ],
     'modules' => [
         'Magento_Store' => 1,
         'Magento_Config' => 1,
