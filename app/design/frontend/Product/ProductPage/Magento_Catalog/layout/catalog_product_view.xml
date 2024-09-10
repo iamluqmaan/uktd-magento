@@ -9,7 +9,7 @@
     <body>
         <!-- Remove existing blocks if needed -->
         <!-- <referenceBlock name="product.info.details" remove="true"/> -->
-        <referenceBlock name="product.info.main" remove="true"/>
+        <!-- <referenceBlock name="product.info.main" remove="true"/> -->
 
         <!-- Add your custom blocks -->
         <referenceContainer name="product.info.details">
